@@ -29,5 +29,6 @@ func main() {
 		}
 		tmpl.Execute(w, data)
 	})
+	//xu ly
 	http.ListenAndServe(":9996", nil)
 }
